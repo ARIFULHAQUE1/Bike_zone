@@ -215,8 +215,30 @@
             <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="card shadow-xl">
                     <div class="avatar">
-                        <div class=" rounded-full mx-auto">
-                            <img class="h-[149px] w-[149px]" src="./images/others/user-1.png" />
+                        <div class=" rounded-full mx-auto h-[149px] w-[149px]">
+                            <img class="w-full" src="./images/others/user-1.png" />
+                        </div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vel culpa, nam facere iure
+                            commodi accusantium ut modi eum voluptate!</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h2 class="card-title font-bold text-blue-400">John Doe</h2>
+                        <h2 class="card-title font-bold">Banker</h2>
+
+                    </div>
+                </div>
+                <div class="card shadow-xl">
+                    <div class="avatar">
+                        <div class=" rounded-full mx-auto h-[149px] w-[149px]">
+                            <img class="" src="./images/others/user-2.png" />
                         </div>
                     </div>
                     <div class="card-body items-center text-center">
@@ -238,31 +260,8 @@
                 </div>
                 <div class="card shadow-xl">
                     <div class="avatar">
-                        <div class=" rounded-full mx-auto">
-                            <img class="h-[149px] w-[149px]" src="./images/others/user-2.png" />
-                        </div>
-                    </div>
-                    <div class="card-body items-center text-center">
-
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vel culpa, nam facere iure
-                            commodi accusantium ut modi eum voluptate!</p>
-                        <div class="rating">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                checked="checked" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <h2 class="card-title font-bold text-blue-400">John Doe</h2>
-                        <h2 class="card-title font-bold">Banker</h2>
-
-                    </div>
-                </div>
-                <div class="card shadow-xl">
-                    <div class="avatar">
-                        <div class=" rounded-full mx-auto">
-                            <img class="h-[149px] w-[149px]" src="./images/others/user-3.png" />
+                        <div class=" rounded-full mx-auto h-[149px] w-[149px]">
+                            <img class="" src="./images/others/user-3.png" />
                         </div>
                     </div>
                     <div class="card-body items-center text-center">
@@ -347,8 +346,37 @@
 
         </section>
     </main>
-    <footer>
+    <footer class="footer bg-black text-neutral-content p-10">
+        <aside>
 
+            <div class="flex space-x-2">
+                <p class="font-medium">
+                    Download Now
+                </p>
+                <p class="font-medium">License</p>
+            </div>
+            <ul class="flex space-x-2 ">
+                <li>About</li>
+                <li>Features</li>
+                <li>Support</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Contact Us</li>
+            </ul>
+            <p>&copy; 2024 Bike Zone. All rights reserved.</p>
+        </aside>
+        <nav>
+            <h6 class="footer-title">Get the App</h6>
+            <div class="grid grid-flow-row gap-4">
+                <a>
+                    <img class="w-24" src="./images/others/android.png" alt="">
+                </a>
+                <a>
+                    <img class="w-24" src="./images/others/ios.png" alt="">
+                </a>
+
+            </div>
+        </nav>
     </footer>
 </body>
 
